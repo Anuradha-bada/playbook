@@ -3,8 +3,8 @@
   apt:
     name: openjdk-8-jdk
     state: present
-- name : set java_home 
-  shell: 'export JAVA_HOME="{{ JAVA_HOME }}" >>/.bashrc'
+#- name : set java_home 
+# shell: 'export JAVA_HOME="{{ JAVA_HOME }}" >>/.bashrc'
 
 - name: Add tomcat group
   group:
