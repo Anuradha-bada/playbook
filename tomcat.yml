@@ -1,4 +1,5 @@
 ---
 - hosts: localhost
+  become_user: vagrant
   roles:
     - tomcat-role
