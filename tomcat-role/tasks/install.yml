@@ -35,7 +35,7 @@
   unarchive:
     src: "{{ tomcat_archive_dest }}"
     dest: /usr/share/tomcat
-    mode: 0644
+    mode: 0755
     owner: tomcat
     group: tomcat
     creates: /usr/share/tomcat/bin
