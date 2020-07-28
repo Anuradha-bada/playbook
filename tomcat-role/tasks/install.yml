@@ -9,7 +9,8 @@
 - name: Add tomcat group
   group:
     name: tomcat
-    mode: 0755
+    system: true
+    state: present
 
 - name: Add "tomcat" user
   user:
